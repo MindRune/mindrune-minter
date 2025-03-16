@@ -1,0 +1,117 @@
+{
+  "testnet_host": "",
+  "testnet_port": "",
+  "mainnet_host": "",
+  "mainnet_port": "",
+  "db_host": "localhost",
+  "db_user": "root",
+  "db_pass": "admin",
+  "db_name": "knowledge_miner_db",
+  "environment": "testnet",
+  "node_id": 0,
+  "paired_node_id": 0,
+  "asset_exercise": false,
+  "paranet_exercise": false,
+  "miner_exercise": false,
+  "paranet_mode": false,
+  "useSSL": false,
+  "price_check": false,
+  "builder_cycle_time_sec": 7,
+  "publisher_cycle_time_sec": 7,
+  "curator_cycle_time_sec": 7,
+  "miner_cycle_time_sec": 7,
+  "max_trac_cost": 1,
+  "epochs": 1,
+  "retry_time_min": 1,
+  "rollback_time_min": 2,
+  "miner_pub_count": 3,
+  "operators": [
+
+  ],
+  "publishers": [
+
+  ],
+  "miners": [
+
+  ],
+  "data_feeds": [
+    {
+      "enabled": "false",
+      "name": "Google",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "DPLA",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "Newspaper",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "Wikidata",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "Weather",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "MarineRegions",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "ArcticInfrastructure",
+      "api_key": ""
+    },
+    {
+      "enabled": "false",
+      "name": "Static",
+      "api_key": ""
+    }
+  ],
+  "blockchains": [
+    {
+      "enabled": "false",
+      "name": "gnosis:100",
+      "network": "mainnet",
+      "paranet_ual": ""
+    },
+    {
+      "enabled": "false",
+      "name": "otp:2043",
+      "network": "mainnet",
+      "paranet_ual": ""
+    },
+    {
+      "enabled": "false",
+      "name": "base:8453",
+      "network": "mainnet",
+      "paranet_ual": ""
+    },
+    {
+      "enabled": "false",
+      "name": "gnosis:10200",
+      "network": "testnet",
+      "paranet_ual": ""
+    },
+    {
+      "enabled": "false",
+      "name": "otp:20430",
+      "network": "testnet",
+      "paranet_ual": ""
+    },
+    {
+      "enabled": "false",
+      "name": "base:84532",
+      "network": "testnet",
+      "paranet_ual": ""
+    }
+  ]
+}

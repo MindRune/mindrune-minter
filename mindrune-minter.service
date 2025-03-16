@@ -1,0 +1,13 @@
+[Unit]
+Description=MindRune Minter
+
+[Service]
+Type=simple
+WorkingDirectory=/root/mindrune-minter/src
+ExecStart=/root/mindrune-minter/mindrune-minter.sh
+Restart=on-failure
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
