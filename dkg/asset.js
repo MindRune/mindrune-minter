@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const configPath = path.resolve(__dirname, "../config/.miner_config");
+const configPath = path.resolve(__dirname, "../config/.miner_config.json");
 const miner_config = JSON.parse(fs.readFileSync(configPath, "utf8"));
 const DKGClient = require("dkg.js");
 const testnet_host = miner_config.testnet_host;
