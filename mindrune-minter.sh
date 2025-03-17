@@ -6,6 +6,6 @@ cd ~/mindrune-minter/src
 # Start the application using nodemon and log output to stdout and stderr
 while true
 do
-    nodemon start
+    node index.js
     sleep 1
 done
